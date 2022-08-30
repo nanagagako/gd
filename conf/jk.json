@@ -19,18 +19,114 @@
 
     "cmdName": "task",
 
-    "isNow": true,
+    "isNow": false,
 
     "log_send": "1",
 
     "log_type": "1",
 
-  "jk":[
-       {
+   "jk":[
+        {
+            "isOpen": true,
+            "name": "M加购有礼",
+            "envName": "M_WX_ADD_CART_URL",
+            "scriptPath": "nanagagako_Jk/m_jd_wx_addCart.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M关注抽奖",
+            "envName":"M_WX_FOLLOW_DRAW_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_followDraw.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M关注有礼无线",
+            "envName":"M_WX_SHOP_GIFT_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_shopGift.js"
+        },
+        {
             "isOpen": true,
             "name": "M关注有礼",
             "envName":"M_FOLLOW_SHOP_ARGV",
-            "scriptPath":"m_jd_follow_shop.js"
+            "scriptPath":"nanagagako_Jk/m_jd_follow_shop.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M收藏有礼",
+            "envName":"M_FAV_SHOP_ARGV",
+            "scriptPath":"nanagagako_Jk/m_jd_fav_shop_gift.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M老虎机抽奖",
+            "envName":"M_WX_CENTER_DRAW_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_centerDraw.js"
+        },
+        {
+            "isOpen": true,
+            "name": "PKC关注有礼特效",
+            "envName":"PKC_TXGZYL",
+            "scriptPath":"nanagagako_Jk/KRjd_txgzyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M购物车锦鲤",
+            "envName":"jd_wxCartKoi_activityId",
+            "scriptPath":"nanagagako_Jk/KRjd_wxCartKoi.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M让福袋飞",
+            "envName":"jd_wxUnPackingActivity_activityId",
+            "scriptPath":"nanagagako_Jk/KRjd_wxUnPackingActivity.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M关注店铺抽奖",
+            "envName":"jd_wxShopFollowActivity_activityId",
+            "scriptPath":"nanagagako_Jk/KRjd_wxShopFollowActivity.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M粉丝互动",
+            "envName":"jd_wxFansInterActionActivity_activityId",
+            "scriptPath":"nanagagako_Jk/KRjd_wxFansInterActionActivity.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M店铺游戏",
+            "envName":"WXGAME_ACT_ID",
+            "scriptPath":"nanagagako_Jk/jd_game.js"
+        },
+        {
+           "isOpen": true,
+           "name": "CJ组队瓜分",
+           "envName": "jd_cjhy_activityId",
+           "scriptPath": "nanagagako_Jk/KRjd_cjzdgf.js"
+        },
+        {
+            "isOpen": true,
+            "name": "ZD组队瓜分",
+            "envName": "jd_zdjr_activityId",
+            "scriptPath": "nanagagako_Jk/KRjd_zdjr.js"
+        },
+        {
+            "isOpen": true,
+            "name": "JOY通用开卡活动",
+            "envName":"JD_JOYOPEN",
+            "scriptPath":"nanagagako_Jk/jd_joyopen.js"
+        },
+        {
+            "isOpen": true,
+            "name": "joy通用ID任务",
+            "envName":"comm_activityIDList",
+            "scriptPath":"nanagagako_Jk/jd_joyjd_open.js"
+        },
+        {
+            "isOpen": true,
+            "name": "joy抽奖机通用",
+            "envName":"JD_Lottery",
+            "scriptPath":"task nanagagako_Jk/jd_lottery.js"
         }
  
    ]
