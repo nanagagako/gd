@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from datetime import datetime
+from urllib import parse
 from ..bot.update import version as jk_version
 import asyncio
 import random
@@ -235,7 +236,7 @@ pat = '(.|\\n)*export\s(%s).*=(".*"|\'.*\')' % patternStr
 async def activityID(event):
     try:
         await getJkConfig(jk)
-        text = event.message.text
+        text = parse.unquote_plus(event.message.text)
         msg_result = re.findall(patternStr, text)
         if len(msg_result) > 0:
             pass
@@ -266,7 +267,7 @@ async def activityID(event):
         if not name:
             return
         msg = await jdbot.send_message(chat_id, f'【监控】{group} 发出的 `[{name}]` 环境变量！', link_preview=False)
-        messages = event.message.text.split("\n")
+        messages = (parse.unquote_plus(event.message.text)).split("\n")
         change = ""
 
         # -------------------------------自定义变量-------------------------------
@@ -279,6 +280,7 @@ async def activityID(event):
             if "export " not in message:
                 continue
             kvs = re.sub(r'.*export ', 'export ', message)
+            kvs = re.sub(r'\)', '', kvs)
             kv = kvs.replace("export ", "")
             key = kv.split("=")[0]
             value = re.findall(r'[\'|"]([^"]*)[\'|"]', kv)[0]
@@ -418,4 +420,3 @@ async def activityID(event):
         tip = '建议百度/谷歌进行查询'
         await jdbot.send_message(chat_id, f"{title}\n\n{name}\n{function}\n错误原因：{str(e)}\n\n{tip}")
         logger.error(f"错误--->{str(e)}")
-        
