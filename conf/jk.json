@@ -27,22 +27,28 @@
 
    "jk":[
         {
-            "isOpen": true,
+              "isOpen": true,
             "name": "M加购有礼",
             "envName": "M_WX_ADD_CART_URL",
             "scriptPath": "nanagagako_Jk/m_jd_wx_addCart.js"
         },
         {
             "isOpen": true,
-            "name": "M关注抽奖",
-            "envName":"M_WX_FOLLOW_DRAW_URL",
-            "scriptPath":"nanagagako_Jk/m_jd_wx_followDraw.js"
+            "name": "M幸运抽奖",
+            "envName":"M_WX_LUCK_DRAW_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_luckDraw.js"
         },
         {
             "isOpen": true,
             "name": "M关注有礼无线",
             "envName":"M_WX_SHOP_GIFT_URL",
             "scriptPath":"nanagagako_Jk/m_jd_wx_shopGift.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M关注抽奖",
+            "envName":"M_WX_FOLLOW_DRAW_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_followDraw.js"
         },
         {
             "isOpen": true,
@@ -64,33 +70,57 @@
         },
         {
             "isOpen": true,
+            "name": "M盖楼领奖",
+            "envName":"M_WX_BUILD_DRAW_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_buildDraw.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M读秒手速",
+            "envName":"M_WX_SECOND_DRAW_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_secondDraw.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M等级/生日礼包",
+            "envName":"M_WX_LEVEL_BIRTH_URL",
+            "scriptPath":"nanagagako_Jk/m_jd_wx_levelBirth.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M知识超人",
+            "envName":"jd_wxKnowledgeActivity_activityId",
+            "scriptPath":"gagako/jd_wxKnowledgeActivity.js"
+        },
+        {
+            "isOpen": true,
+            "name": "M集卡有礼",
+            "envName":"jd_wxCollectCard_activityId",
+            "scriptPath":"gagako/jd_wxCollectCard.js"
+        },
+        {
+            "isOpen": true,
             "name": "PKC关注有礼特效",
             "envName":"PKC_TXGZYL",
-            "scriptPath":"nanagagako_Jk/KRjd_txgzyl.js"
+            "scriptPath":"nanagagako_Jk/jd_txgzyl.js"
         },
         {
             "isOpen": true,
             "name": "M购物车锦鲤",
             "envName":"jd_wxCartKoi_activityId",
-            "scriptPath":"nanagagako_Jk/KRjd_wxCartKoi.js"
+            "scriptPath":"nanagagako_Jk/jd_wxCartKoi.js"
         },
         {
             "isOpen": true,
             "name": "M让福袋飞",
             "envName":"jd_wxUnPackingActivity_activityId",
-            "scriptPath":"nanagagako_Jk/KRjd_wxUnPackingActivity.js"
-        },
-        {
-            "isOpen": true,
-            "name": "M关注店铺抽奖",
-            "envName":"jd_wxShopFollowActivity_activityId",
-            "scriptPath":"nanagagako_Jk/KRjd_wxShopFollowActivity.js"
+            "scriptPath":"nanagagako_Jk/jd_wxUnPackingActivity.js"
         },
         {
             "isOpen": true,
             "name": "M粉丝互动",
             "envName":"jd_wxFansInterActionActivity_activityId",
-            "scriptPath":"nanagagako_Jk/KRjd_wxFansInterActionActivity.js"
+            "scriptPath":"nanagagako_Jk/jd_wxFansInterActionActivity.js"
         },
         {
             "isOpen": true,
@@ -99,16 +129,46 @@
             "scriptPath":"nanagagako_Jk/jd_game.js"
         },
         {
+            "isOpen": true,
+            "name": "CJ生日礼包",
+            "envName":"jd_cjhy_wxMcLevelAndBirthGifts_ids",
+            "scriptPath":"nanagagako_Jk/jd_cjhy_wxMcLevelAndBirthGifts.js"
+        },
+        {
+            "isOpen": true,
+            "name": "LZ店铺礼包",
+            "envName":"jd_lzkj_wxShopGift_ids",
+            "scriptPath":"nanagagako_Jk/jd_lzkj_wxShopGift.js"
+        },
+        {
+            "isOpen": true,
+            "name": "CJ店铺礼包",
+            "envName":"jd_cjhy_wxShopGift_ids",
+            "scriptPath":"nanagagako_Jk/jd_cjhy_wxShopGift.js"
+        },
+        {
+            "isOpen": true,
+            "name": "CJ完善信息",
+            "envName":"jd_cjhy_completeInfoActivity_Ids",
+            "scriptPath":"nanagagako_Jk/jd_cjhy_completeInfoActivity.js"
+        },
+        {
            "isOpen": true,
            "name": "CJ组队瓜分",
            "envName": "jd_cjhy_activityId",
-           "scriptPath": "nanagagako_Jk/KRjd_cjzdgf.js"
+           "scriptPath": "nanagagako_Jk/jd_cjzdgf.js"
         },
         {
             "isOpen": true,
             "name": "ZD组队瓜分",
             "envName": "jd_zdjr_activityId",
-            "scriptPath": "nanagagako_Jk/KRjd_zdjr.js"
+            "scriptPath": "nanagagako_Jk/jd_zdjr.js"
+        },
+        {
+            "isOpen": true,
+            "name": "TXZJ抽奖",
+            "envName": "jd_txzj_lottery_id",
+            "scriptPath": "nanagagako_Jk/jd_txzj_lottery.js"
         },
         {
             "isOpen": true,
