@@ -130,45 +130,63 @@
         },
         {
             "isOpen": true,
-            "name": "CJ生日礼包",
+            "name": "cjhy会员生日",
             "envName":"jd_cjhy_wxMcLevelAndBirthGifts_ids",
             "scriptPath":"nanagagako_Jk/jd_cjhy_wxMcLevelAndBirthGifts.js"
         },
         {
             "isOpen": true,
-            "name": "LZ店铺礼包",
+            "name": "lzkj店铺礼包",
             "envName":"jd_lzkj_wxShopGift_ids",
             "scriptPath":"nanagagako_Jk/jd_lzkj_wxShopGift.js"
         },
         {
             "isOpen": true,
-            "name": "CJ店铺礼包",
+            "name": "cjhy店铺礼包",
             "envName":"jd_cjhy_wxShopGift_ids",
             "scriptPath":"nanagagako_Jk/jd_cjhy_wxShopGift.js"
         },
         {
             "isOpen": true,
-            "name": "CJ完善信息",
+            "name": "cjhy完善信息",
             "envName":"jd_cjhy_completeInfoActivity_Ids",
             "scriptPath":"nanagagako_Jk/jd_cjhy_completeInfoActivity.js"
         },
         {
-           "isOpen": true,
-           "name": "CJ组队瓜分",
-           "envName": "jd_cjhy_activityId",
-           "scriptPath": "nanagagako_Jk/jd_cjzdgf.js"
-        },
-        {
             "isOpen": true,
-            "name": "ZD组队瓜分",
-            "envName": "jd_zdjr_activityId",
-            "scriptPath": "nanagagako_Jk/jd_zdjr.js"
-        },
-        {
-            "isOpen": true,
-            "name": "TXZJ抽奖",
+            "name": "txzj抽奖",
             "envName": "jd_txzj_lottery_id",
             "scriptPath": "nanagagako_Jk/jd_txzj_lottery.js"
+        },
+        {
+            "isOpen": true,
+            "name": "txzj加购",
+            "envName": "jd_txzj_cart_item_id",
+            "scriptPath": "nanagagako_Jk/jd_txzj_cart_item.js"
+        },
+        {
+            "isOpen": true,
+            "name": "txzj关注",
+            "envName": "jd_txzj_collect_item_id",
+            "scriptPath": "nanagagako_Jk/jd_txzj_collect_item.js"
+        },
+        {
+            "isOpen": true,
+            "name": "txzj签到",
+            "envName": "jd_txzj_sign_in_id",
+            "scriptPath": "nanagagako_Jk/jd_txzj_sign_in.js"
+        },
+        {
+            "isOpen": true,
+            "name": "CJ组队瓜分京豆",
+            "envName": "jd_cjhy_activityId",
+            "scriptPath": "nanagagako_Jk/jd_cjzdgf.js"
+        },
+        {
+            "isOpen": true,
+            "name": "ZD组队瓜分京豆",
+            "envName": "jd_zdjr_activityId",
+            "scriptPath": "nanagagako_Jk/jd_zdjr.js"
         },
         {
             "isOpen": true,
