@@ -90,13 +90,13 @@
             "isOpen": true,
             "name": "M知识超人",
             "envName":"jd_wxKnowledgeActivity_activityId",
-            "scriptPath":"gagako/jd_wxKnowledgeActivity.js"
+            "scriptPath":"nanagagako_Jk/jd_wxKnowledgeActivity.js"
         },
         {
             "isOpen": true,
             "name": "M集卡有礼",
             "envName":"jd_wxCollectCard_activityId",
-            "scriptPath":"gagako/jd_wxCollectCard.js"
+            "scriptPath":"nanagagako_Jk/jd_wxCollectCard.js"
         },
         {
             "isOpen": true,
@@ -204,7 +204,7 @@
             "isOpen": true,
             "name": "joy抽奖机通用",
             "envName":"JD_Lottery",
-            "scriptPath":"task nanagagako_Jk/jd_lottery.js"
+            "scriptPath":"nanagagako_Jk/jd_lottery.js"
         }
  
    ]
